@@ -1,0 +1,12 @@
+name: pyportrait
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - rxpy
+  - pydantic
+  - pytest
+  - pre-commit
+  - black
+  - flake8
+  - isort
