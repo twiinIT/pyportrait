@@ -38,8 +38,8 @@ class HasTraits(BaseModel):
     class Config:
         validate_assignment = True
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
         self._subject = rx.Subject()
         self._observables = {
